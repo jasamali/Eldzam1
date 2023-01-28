@@ -147,6 +147,34 @@ header {
 
 /* kraj hero pagea desktop */
 
+/* aktuelni video */
+
+.aktuelno-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aktuelno-video h1 {
+    text-align: center;
+    margin: 3rem auto 2rem auto;
+}
+
+.aktuelno-video iframe {
+    margin: 1rem auto;
+    height: 550px;
+    width: 1100px;
+}
+
+.usluge-naslov-2 {
+    display: none;
+}
+
+
+
+
+
 .usluge-container {
     display: flex;
     background-color: #f9f9f9;
@@ -433,6 +461,25 @@ i {
 /* kraj footera za desktop */
 
 
+@media only screen and (max-width: 897px){
+    .aktuelno-video iframe {
+        display: none;
+    }
+
+    .aktuelno-video {
+        height: 50vh;
+    }
+
+    .aktuelno-video h1 {
+     width: 100%;
+    }
+
+    .usluge-naslov-2 {
+        font-size: 2rem;
+        display: block;
+    }
+}
+
 @media only screen and (max-width: 1400px){
     .drugi .drugikvadar {
         right: 2rem;
@@ -445,6 +492,11 @@ i {
 
     * {
         overflow-x: hidden;
+    }
+
+    
+     .aktuelno-video iframe {
+        width: 900px;
     }
 
 
