@@ -159,6 +159,12 @@ header {
 .aktuelno-video h1 {
     text-align: center;
     margin: 3rem auto 2rem auto;
+    font-size: 3rem;
+    font-weight: 500;
+    width: 500px;
+    font-family: 'Raleway', sans-serif;
+    line-height: normal;
+    color: #c90000;
 }
 
 .aktuelno-video iframe {
